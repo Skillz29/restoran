@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    
+    <title>Restaurant</title>
+    
+</head>
+<body>
+<header class = "header">
+    <div class="container">
+    
+        <div class="header-line">
+            <logo class="header-logo">
+                <img src="./img/logo.png" alt="logoIMG" srcset="">
+            </logo>
+
+            <nav class="header-nav">
+                <a class="header-nav-item" href="#header-down">ГЛАВНАЯ</a>
+                <a class="header-nav-item" href="#dishes">МЕНЮ</a>
+                <a class="header-nav-item" href="#history">О НАС</a>
+                <a class="header-nav-item" href="#header-phone-number">БРОНЬ</a>
+            </nav>
+
+            <div class = "header-cart">
+                <a href="#">
+                    <img class="header-cart-img" src="./img/cart.png" alt="cartIMG">
+                </a>
+            </div>
+
+            <div class="header-phone">
+                <div class="header-phone-holder">
+                    <div class="header-phone-img">
+                        <img src="./img/phone.png" alt="PhoneIMG">
+                    </div>
+
+                    <div class="header-phone-number" id="header-phone-number">
+                        <a class="header-phone-number-num"  href="#">+999-888-76-54</a>
+                    </div>
+                </div>
+
+                <div class="header-phone-text">
+                    Свяжитесь с нами для <br> бронирования
+                </div>
+
+            </div>
+
+            <div class="header-button">
+                <a class="header-button-btn" href="#">
+                    ЗАКАЗ СТОЛИКА
+                </a>
+            </div>
+            <div class="burger-menu">
+                <button id="burger">
+                    <img src="./img/burger-img.png" alt="burgerMenuIMG">
+                </button>
+
+                <div class="burger-slide disp" id="menu">
+
+                    <a class="header-nav-item block" href="#header-down">ГЛАВНАЯ</a>
+                    <a class="header-nav-item block" href="#dishes">МЕНЮ</a>
+                    <a class="header-nav-item block" href="#history">О НАС</a>
+                    <a class="header-nav-item block" href="#header-phone-number">БРОНЬ</a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header-down" id="header-down">
+            <div class="header-down-title">
+                Добро пожаловать в
+
+                <div class="header-down-subtitle">
+                    Наш ресторан
+                </div>
+
+                <div class="header-down-suptitle">
+                    ДОМ ЛУЧШЕЙ ЕДЫ
+                </div>
+
+                <div class="header-down-button">
+
+                    <a class="header-down-button_btn" href="#">
+                        VIEW MENU
+                    </a>
+
+                   
+
+                </div>
+
+            </div>
+        
+
+        </div>
+
+    </div>
+
+</header>
+
+<section class="cards">
+
+    <div class="container">
+
+        <div class="cards-holder">
+
+            <div class="card">
+
+                <div class="card-image">
+                    <img class="card-img" src="./img/card.png" alt="cardIMG">    
+                </div>
+
+                <div class="card-title">
+                    Магическая  <span>Атмосфера</span> 
+                </div>
+
+                <div class="card-desc">
+                    В нашем заведении царит 
+                    магическая атмосфера
+                    наполненная вкусными ароматами
+                </div>
+            </div>
+
+            <div class="card">
+
+                <div class="card-image">
+                    <img class="card-img" src="./img/card.png" alt="cardIMG">    
+                </div>
+
+                <div class="card-title">
+                    Лучшее качество  <span>Еды</span> 
+                </div>
+
+                <div class="card-desc">
+                    Качество нашей 
+                    Еды - отменное!
+
+                </div>
+            </div>
+
+            <div class="card">
+
+                <div class="card-image">
+                    <img class="card-img" src="./img/card.png" alt="cardIMG">    
+                </div>
+
+                <div class="card-title">
+                    Недорогая  <span>Еда</span> 
+                </div>
+
+                <div class="card-desc">
+                    Стоимость нашей Еды
+                    зависит только от ее
+                    количества. Качество
+                    всегда на высоте!
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="history" id="history">
+    <div class="container"> 
+        <div class="history-holder">
+        
+            <div class="history-info">
+
+                <div class="history-title">
+                    Наша <span>История</span>
+                </div>
+
+                <div class="history-desc">
+                    Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.
+                </div >
+
+                <div class="history-number">
+                    <div class="history-number_item">
+                        93 <span>Напитки</span>
+                    </div>
+
+                    <div class="history-number_item">
+                        206 <span>Еда</span>
+                    </div>
+
+                    <div class="history-number_item">
+                        71 <span>Закуски</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="history-images">
+
+                <img class="history-images_img1" src="./img/1.jpg" alt="1IMG">
+
+                <img class="history-images_img2" src="./img/2.jpg" alt="2IMG">
+
+                <img class="history-images_img3" src="./img/3.jpg" alt="3IMG">
+
+            </div>
+
+        </div>  
+
+    </div>
+</section>
+
+<section class="black-block">
+    <div class="container">
+        <div class="black-holder">
+
+            <div class="black-left">
+                <div class="black-left_title">
+                    Отпразднуйте в одном из <br>самых лучших ресторанов.
+                </div>
+
+                <div class="black-left_text">
+                    Только в этом месяце бизнес-ланч от 250 ₽
+
+                </div>
+
+            </div>  
+
+            <div class="black-right">
+                <div class="black-right_button">
+                    <a class="black-right_btn" href="#">ЗАКАЗ СТОЛИКА</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="dishes" id="dishes">
+    <div class="container">
+
+        <div class="dishes-title">
+            Наши <span>Блюда</span> 
+        </div>
+
+        <div class="dishes-burgers">
+
+            <div class="burgers-images">
+                <img class="burgers-images_img" src="./img/pizza.jpg" alt="pizzaIMG">
+            </div>
+
+            <div class="burgers-items">
+
+                <div class="burger-item">
+                    <img class="burger-item_img" src="./img/burger.jpg" alt="burgerIMG">
+
+                    <div class="burger-text">
+                        Гамбургер мини---------------220р
+
+                    </div>
+
+                </div>
+
+                <div class="burger-item">
+                    <img class="burger-item_img" src="./img/burger.jpg" alt="burgerIMG">
+
+                    <div class="burger-text">
+                        Гамбургер мини---------------220р
+
+                    </div>
+
+                </div>
+
+                <div class="burger-item">
+                    <img class="burger-item_img" src="./img/burger.jpg" alt="burgerIMG">
+
+                    <div class="burger-text">
+                        Гамбургер мини---------------220р
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</section>
+
+<section class="menu">
+    <div class="container">
+
+        <div class="menu-title">
+            Наше меню
+        </div>
+
+            <div class="menu-items">
+                <div class="menu-item">
+
+                    <div class="menu-image">
+
+                        <img class="menu-img" src="./img/burger-i.png" alt="BurgerIMG">
+
+                       
+                    </div>
+
+                    <div class="menu-text">
+                        Гамбургер макси
+                    </div>
+
+                    <div class="menu-subtext">
+                        Максимально толстый <br>
+                        слой мяса
+                    </div>
+
+                    <div class="menu-button">
+                        <a class="menu-btn" href="#">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item">
+
+                    <div class="menu-image">
+
+                        <img class="menu-img" src="./img/burger-i.png" alt="BurgerIMG">
+
+                       
+                    </div>
+
+                    <div class="menu-text">
+                        Гамбургер макси
+                    </div>
+
+                    <div class="menu-subtext">
+                        Максимально толстый <br>
+                        слой мяса
+                    </div>
+
+                    <div class="menu-button">
+                        <a class="menu-btn" href="#">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item">
+
+                    <div class="menu-image">
+
+                        <img class="menu-img" src="./img/burger-i.png" alt="BurgerIMG">
+
+                    </div>
+
+                    <div class="menu-text">
+                        Гамбургер макси
+                    </div>
+
+                    <div class="menu-subtext">
+                        Максимально толстый <br>
+                        слой мяса
+                    </div>
+
+                    <div class="menu-button">
+                        <a class="menu-btn" href="#">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+            </div>
+
+    </div>
+
+</section>
+
+<section class="coment">
+    <div class="container">
+        <div class="coment-text">
+            Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+
+        </div>
+
+        <div class="coment-images">
+            <img class="coment-images_img" src="./img/coment.jpg" alt="commentIMG">
+        </div>
+
+        <div class="coment-visitor">
+            Посетитель
+        </div>
+
+        <div class="coment-name">
+            Николай
+        </div>
+
+    </div>
+
+</section>
+
+<section class="galery">
+    <div class="container">
+
+        <div class="galeri-title">
+            Галерея <span>Блюд</span> 
+        </div>
+
+        <div class="galery-content">
+
+            <div class="galery-left">
+
+                <div class="galery-up">
+
+                    <img class="img-gal high" src="./img/galary left1.jpg" alt="galaryIMG">
+
+                </div>
+
+                <div class="galery-down">
+
+                  <img class="img-gal" src="./img/galary left2.jpg" alt="galaryIMG">
+
+                  <img class="img-gal" src="./img/galary left3.jpg" alt="galaryIMG">
+
+                </div>
+
+            </div>
+
+            <div class="galery-right">
+
+                <div class="galery-up">
+
+                    <img class="img-gal" src="./img/galary right1.jpg" alt="galaryIMG">
+
+                    <img class="img-gal" src="./img/galary right2.jpg" alt="galaryIMG">
+
+                </div>
+
+                <div class="galery-down">
+
+                    <img class="img-gal high" src="./img/galary right3.jpg" alt="galaryIMG">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="cooks">
+    <div class="container">
+        <div class="cooks-title">
+            Наши <span>Повара</span> 
+        </div>
+
+        <div class="cooks-content">
+
+            <img class="cooks-img" src="./img/cook1.jpg" alt="cookIMG">
+
+            <img class="cooks-img" src="./img/cook2.jpg" alt="cookIMG">
+
+            <img class="cooks-img" src="./img/cook3.jpg" alt="cookIMG">
+
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+
+   <a class="footer-text" href="#">Footer 2023</a> 
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
